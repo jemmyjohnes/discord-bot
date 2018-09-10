@@ -15,6 +15,6 @@ Files.initStandalone();
 process.on('message', function(content) {
 	Files.initBotTest(content);
 });
-	client.login(process.env.NDcxNzU0MzkxOTE4MjE1MTY4.Dng1NA.eqRwZDFrxe2JP4XuzEgNG7GT5mk);
+	client.login(process.env.NDcxNzU0MzkxOTE4MjE1MTY4.Dng1cA.dWVM-fFHmZnEkjJEqHCSX_vZZ5Y);
 
 }
