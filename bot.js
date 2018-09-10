@@ -15,5 +15,4 @@ Files.initStandalone();
 process.on('message', function(content) {
 	Files.initBotTest(content);
 });
-	claim.login(process.env.BOT_TOKEN);
-}
+	claim.login(process.env.NDcxNzU0MzkxOTE4MjE1MTY4.DngZRw.VRwqmxR9Pm8pTmtkHh9XufP8Q3M);
