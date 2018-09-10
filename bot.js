@@ -4,7 +4,7 @@
  * Robert Borghese
  */
 
-const Files = require(require('path').join(__dirname, 'js', 'Main.js')).Files;
+const Files = require(require('C:\Projects\New Bot Project\js').join(__dirname, 'js', 'Main.js')).Files;
 
 if(!process.send) {
 
