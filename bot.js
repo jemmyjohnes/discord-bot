@@ -1,20 +1,25 @@
-/*
- * Discord Bot Builder Bot
- * Version 1.2.0
- * Robert Borghese
- */
+const Discord = require('discord.js');
 
-const Files = require(require('path').join(__dirname, 'js', 'Main.js')).Files;
+const client = new Discord.Client();
 
-if(!process.send) {
+ 
 
-Files.initStandalone();
+client.on('ready', () => {
 
-} else {
+    console.log('I am ready!');
 
-process.on('message', function(content) {
-	Files.initBotTest(content);
 });
-	client.login(process.env.NDcxNzU0MzkxOTE4MjE1MTY4.Dng1cA.dWVM-fFHmZnEkjJEqHCSX_vZZ5Y);
 
-}
+ 
+
+client.on('message', message => {
+
+    if (message.content === 'ping') {
+
+       message.reply('pong');
+
+       }
+
+});
+
+ 
